@@ -1,0 +1,32 @@
+[project]
+name = "chatbot"
+version = "0.0.1"
+authors = [
+  { name="DEAXParadox", email="nitish136900kushwaha@gmail.com" },
+]
+description = "Chat with smart, human-like AI anytime. Get instant answers, brainstorm ideas, or just have a friendly conversation. Fast, intuitive, and always available—your personal AI companion is just a message away."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+# license-files = ["LICEN[CS]E*"]
+
+# [project.urls]
+# Homepage = "https://github.com/pypa/sampleproject"
+# Issues = "https://github.com/pypa/sampleproject/issues"
+
+
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+#[tool.setuptools.packages.find]
+#where = ["src"]
+# include = ["chatbot*"]
+#namespaces = false
+
+[project.scripts]
+chatbot = 'chatbot.main:main'
