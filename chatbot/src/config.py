@@ -5,7 +5,7 @@ import sys
 from dotenv import load_dotenv
 
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 sys.path.append(BASE_DIR)
 
 load_dotenv()
