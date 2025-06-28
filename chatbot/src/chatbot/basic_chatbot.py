@@ -2,6 +2,7 @@ from typing import Annotated
 
 from typing_extensions import TypedDict
 
+from langgraph.checkpoint.postgres import PostgresSaver
 from langgraph.graph import END, StateGraph, START
 from langgraph.graph.message import add_messages
 from langgraph.prebuilt import tools_condition

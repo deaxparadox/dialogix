@@ -6,3 +6,5 @@ langchain-openai==0.3.24
 openai==1.88.0
 langchain_community==0.3.25
 django==5.2.3
+langgraph-checkpoint-postgres==2.0.21
+langchain_tavily==0.2.4
